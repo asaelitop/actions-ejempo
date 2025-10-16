@@ -7,25 +7,13 @@ class Person:
     """
     
     def __init__(self, first_name, last_name):
-        """
-        Inicializa una persona con nombre y apellido.
-        
-        Args:
-            first_name (str): El nombre de la persona
-            last_name (str): El apellido de la persona
-        """
-        
-    
+
+        first_name = "Asael"
+        last_name = "Otero"
+
     def __str__(self):
-        """
-        Retorna una representación en string de la persona.
-        
-        El formato es "Nombre Apellido" con la primera letra de cada
-        palabra en mayúscula (capitalizado).
-        
-        Returns:
-            str: Nombre completo capitalizado
-        """
+        nombre_completo = f"{self.first_name} {self.last_name}"
+        return nombre_completo
         
 
 
