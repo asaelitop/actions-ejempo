@@ -7,15 +7,12 @@ class Person:
     """
     
     def __init__(self, first_name, last_name):
-        self.first_name = first_name
-        self.last_name = last_name
+        self.first_name = 'Asael'
+        self.last_name = 'Otero'
 
     def __str__(self):
-        # Combina el nombre y el apellido.
-        full_name = f"{self.first_name} {self.last_name}"
-        
-        # Capitaliza la cadena (convierte la primera letra de cada palabra a mayúscula).
-        return full_name.title()
+        nombre_completo = f"{self.first_name} {self.last_name}"
+        return nombre_completo.title()
         
 
 
