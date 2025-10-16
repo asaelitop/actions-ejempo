@@ -7,12 +7,11 @@ class Person:
     """
     
     def __init__(self, first_name, last_name):
-
-        first_name = "Asael"
-        last_name = "Otero"
+        first_name = 'Asael'
+        last_name = 'Otero'
+        nombre_completo = f"{self.first_name} {self.last_name}"
 
     def __str__(self):
-        nombre_completo = f"{self.first_name} {self.last_name}"
         return nombre_completo
         
 
