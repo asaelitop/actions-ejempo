@@ -11,8 +11,8 @@ class Person:
         self.last_name = last_name
 
     def __str__(self):
-        nombre_completo = f"{self.first_name} {self.last_name}"
-        return nombre_completo.title()
+        full_name = f"{self.first_name} {self.last_name}"
+        return full_name.title()
         
 
 
